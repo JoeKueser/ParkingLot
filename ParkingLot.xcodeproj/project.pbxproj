@@ -12,6 +12,24 @@
 		D8DC488419B93D6C00700C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DC488219B93D6C00700C2A /* Main.storyboard */; };
 		D8DC488619B93D6C00700C2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DC488519B93D6C00700C2A /* Images.xcassets */; };
 		D8DC489219B93D6C00700C2A /* ParkingLotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC489119B93D6C00700C2A /* ParkingLotTests.swift */; };
+		D8DC489C19B93D9A00700C2A /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC489B19B93D9A00700C2A /* ParkingSpot.swift */; };
+		D8DC489D19B93D9A00700C2A /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC489B19B93D9A00700C2A /* ParkingSpot.swift */; };
+		D8DC489F19B93DBC00700C2A /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC489E19B93DBC00700C2A /* Vehicle.swift */; };
+		D8DC48A019B93DBC00700C2A /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC489E19B93DBC00700C2A /* Vehicle.swift */; };
+		D8DC48A219B93DDC00700C2A /* VehicleSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48A119B93DDC00700C2A /* VehicleSpot.swift */; };
+		D8DC48A319B93DDC00700C2A /* VehicleSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48A119B93DDC00700C2A /* VehicleSpot.swift */; };
+		D8DC48A519B93E6800700C2A /* MotorcyleSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48A419B93E6800700C2A /* MotorcyleSpot.swift */; };
+		D8DC48A619B93E6800700C2A /* MotorcyleSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48A419B93E6800700C2A /* MotorcyleSpot.swift */; };
+		D8DC48A819B93EAC00700C2A /* HandicappedVehicleSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48A719B93EAC00700C2A /* HandicappedVehicleSpot.swift */; };
+		D8DC48A919B93EAC00700C2A /* HandicappedVehicleSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48A719B93EAC00700C2A /* HandicappedVehicleSpot.swift */; };
+		D8DC48AB19B93F0200700C2A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48AA19B93F0200700C2A /* Car.swift */; };
+		D8DC48AC19B93F0200700C2A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48AA19B93F0200700C2A /* Car.swift */; };
+		D8DC48AE19B93F2900700C2A /* HandicappedVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48AD19B93F2900700C2A /* HandicappedVehicle.swift */; };
+		D8DC48AF19B93F2900700C2A /* HandicappedVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48AD19B93F2900700C2A /* HandicappedVehicle.swift */; };
+		D8DC48B119B93F6200700C2A /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48B019B93F6200700C2A /* Motorcycle.swift */; };
+		D8DC48B219B93F6200700C2A /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48B019B93F6200700C2A /* Motorcycle.swift */; };
+		D8DC48B419B93F9600700C2A /* ParkingLot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48B319B93F9600700C2A /* ParkingLot.swift */; };
+		D8DC48B519B93F9600700C2A /* ParkingLot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC48B319B93F9600700C2A /* ParkingLot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,15 @@
 		D8DC488B19B93D6C00700C2A /* ParkingLotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingLotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DC489019B93D6C00700C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8DC489119B93D6C00700C2A /* ParkingLotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotTests.swift; sourceTree = "<group>"; };
+		D8DC489B19B93D9A00700C2A /* ParkingSpot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpot.swift; sourceTree = "<group>"; };
+		D8DC489E19B93DBC00700C2A /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		D8DC48A119B93DDC00700C2A /* VehicleSpot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleSpot.swift; sourceTree = "<group>"; };
+		D8DC48A419B93E6800700C2A /* MotorcyleSpot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotorcyleSpot.swift; sourceTree = "<group>"; };
+		D8DC48A719B93EAC00700C2A /* HandicappedVehicleSpot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandicappedVehicleSpot.swift; sourceTree = "<group>"; };
+		D8DC48AA19B93F0200700C2A /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		D8DC48AD19B93F2900700C2A /* HandicappedVehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandicappedVehicle.swift; sourceTree = "<group>"; };
+		D8DC48B019B93F6200700C2A /* Motorcycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		D8DC48B319B93F9600700C2A /* ParkingLot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingLot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +107,15 @@
 				D8DC488219B93D6C00700C2A /* Main.storyboard */,
 				D8DC488519B93D6C00700C2A /* Images.xcassets */,
 				D8DC487C19B93D6C00700C2A /* Supporting Files */,
+				D8DC489B19B93D9A00700C2A /* ParkingSpot.swift */,
+				D8DC489E19B93DBC00700C2A /* Vehicle.swift */,
+				D8DC48A119B93DDC00700C2A /* VehicleSpot.swift */,
+				D8DC48A419B93E6800700C2A /* MotorcyleSpot.swift */,
+				D8DC48A719B93EAC00700C2A /* HandicappedVehicleSpot.swift */,
+				D8DC48AA19B93F0200700C2A /* Car.swift */,
+				D8DC48AD19B93F2900700C2A /* HandicappedVehicle.swift */,
+				D8DC48B019B93F6200700C2A /* Motorcycle.swift */,
+				D8DC48B319B93F9600700C2A /* ParkingLot.swift */,
 			);
 			path = ParkingLot;
 			sourceTree = "<group>";
@@ -208,8 +244,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DC489F19B93DBC00700C2A /* Vehicle.swift in Sources */,
 				D8DC488119B93D6C00700C2A /* ViewController.swift in Sources */,
+				D8DC48AB19B93F0200700C2A /* Car.swift in Sources */,
+				D8DC48AE19B93F2900700C2A /* HandicappedVehicle.swift in Sources */,
+				D8DC48B419B93F9600700C2A /* ParkingLot.swift in Sources */,
+				D8DC48A819B93EAC00700C2A /* HandicappedVehicleSpot.swift in Sources */,
 				D8DC487F19B93D6C00700C2A /* AppDelegate.swift in Sources */,
+				D8DC48B119B93F6200700C2A /* Motorcycle.swift in Sources */,
+				D8DC48A219B93DDC00700C2A /* VehicleSpot.swift in Sources */,
+				D8DC48A519B93E6800700C2A /* MotorcyleSpot.swift in Sources */,
+				D8DC489C19B93D9A00700C2A /* ParkingSpot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +262,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DC48A019B93DBC00700C2A /* Vehicle.swift in Sources */,
+				D8DC489D19B93D9A00700C2A /* ParkingSpot.swift in Sources */,
+				D8DC48B519B93F9600700C2A /* ParkingLot.swift in Sources */,
+				D8DC48A319B93DDC00700C2A /* VehicleSpot.swift in Sources */,
+				D8DC48A919B93EAC00700C2A /* HandicappedVehicleSpot.swift in Sources */,
+				D8DC48B219B93F6200700C2A /* Motorcycle.swift in Sources */,
+				D8DC48AF19B93F2900700C2A /* HandicappedVehicle.swift in Sources */,
+				D8DC48A619B93E6800700C2A /* MotorcyleSpot.swift in Sources */,
+				D8DC48AC19B93F0200700C2A /* Car.swift in Sources */,
 				D8DC489219B93D6C00700C2A /* ParkingLotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
