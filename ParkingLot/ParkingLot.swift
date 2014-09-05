@@ -14,17 +14,11 @@ class ParkingLot {
     
     init() {
         
-        for index in 1...80 {
-            availableSpots.append(VehicleSpot())
-        }
+        var vehicleSpots = [VehicleSpot](count: 80, repeatedValue: nil)
+        var motorcycleSpots = [MotorcycleSpot](count: 10, repeatedValue: nil)
+        var handicapSpots = [HandicappedVehicleSpot](count: 10, repeatedValue: nil)
         
-        for index in 1...10 {
-            availableSpots.append(MotorcycleSpot())
-        }
-        
-        for index in 1...10 {
-            availableSpots.append(HandicappedVehicleSpot())
-        }
+        availableSpots = vehicleSpots + motorcycleSpots + handicapSpots
     }
     
     func park(vehicle: Vehicle) {
