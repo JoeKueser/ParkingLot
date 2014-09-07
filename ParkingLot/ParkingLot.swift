@@ -22,8 +22,7 @@ class ParkingLot {
     }
     
     func park(vehicle: Vehicle) {
-        for index in 0..<self.availableSpots.count {
-            var spot = availableSpots[index]
+        for (index, spot) in enumerate(availableSpots) {
             if vehicle.canPark(spot) {
                 vehicle.park(spot)
                 availableSpots.removeAtIndex(index)
